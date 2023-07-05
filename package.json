@@ -1,0 +1,47 @@
+{
+  "name": "vue3-mini-audio",
+  "description": "基于vue3开发-音频播放小组件",
+  "version": "1.0.0",
+  "author": "model-zachary <model-zachary@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/vue3-mini-audio",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue3",
+    "vue3-mini-audio",
+    "audio",
+    "vue3 component"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Model-Zachary/vue3-mini-audio"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "unplugin-auto-import": "^0.16.4",
+    "vant": "^4.6.1",
+    "vite": "^4.3.9",
+    "vite-plugin-vue-setup-extend": "^0.4.0"
+  }
+}
